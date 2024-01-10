@@ -6,6 +6,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Arrays;
 
+import java.util.Locale;
+import java.util.ResourceBundle;
+
 public class Tabla_Multiidioma extends JFrame {
     private JPanel mainpanel;
     private JTextField idField;
@@ -59,6 +62,7 @@ public class Tabla_Multiidioma extends JFrame {
                 return column != 0; // Hacemos que la columna ID sea no editable
             }
         };
+
         // Agregar columnas al modelo de la tabla si es necesario
         model.addColumn("ID");
         model.addColumn("Nombre");
@@ -67,8 +71,17 @@ public class Tabla_Multiidioma extends JFrame {
         model.addColumn("Email");
         model.addColumn("Contraseña");
 
+        //         model.addColumn(getColumnName("ID"));
+        //        model.addColumn(getColumnName("Nombre"));
+        //        model.addColumn(getColumnName("Apellidos"));
+        //        model.addColumn(getColumnName("DNI"));
+        //        model.addColumn(getColumnName("Email"));
+        //        model.addColumn(getColumnName("Contraseña"));
+
+
         // Asignar el modelo a la tabla
         table.setModel(model);
+
 
 
         // Definir un DefaultTableCellRenderer para ocultar la contraseña en la tabla
@@ -85,6 +98,32 @@ public class Tabla_Multiidioma extends JFrame {
         // Aplicar el renderer a la columna de contraseñas (índice 5)
         table.getColumnModel().getColumn(5).setCellRenderer(renderer);
     }
+
+
+   // private String getColumnName(String key) {
+    //        // Obtener el idioma del sistema operativo
+    //        String systemLanguage = System.getProperty("user.language");
+    //
+    //        // Cargar las cadenas de texto correspondientes al idioma
+    //        ResourceBundle bundle;
+    //        if ("en".equals(systemLanguage)) {
+    //            bundle = ResourceBundle.getBundle("Propieties.Tesxts_en");
+    //        } else if ("es".equals(systemLanguage)) {
+    //            bundle = ResourceBundle.getBundle("Propieties.Tesxts_ES_es");
+    //        } else if ("fr".equals(systemLanguage)) {
+    //            bundle = ResourceBundle.getBundle("Propieties.Tesxts_fr");
+    //        } else {
+    //            // Si no es un idioma específico, utilizar el archivo general
+    //            bundle = ResourceBundle.getBundle("Propieties.Tesxts");
+    //        }
+    //
+    //        // Devolver la cadena de texto correspondiente a la clave proporcionada
+    //        return bundle.getString(key);
+    //    }
+
+
+
+
 
     private void configuracion_UI() {
         // Configurar la ventana

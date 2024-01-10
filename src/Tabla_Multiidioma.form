@@ -43,7 +43,7 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text resource-bundle="Propietis/Tesxts" key="Nombre"/>
+                  <text resource-bundle="Propieties/Tesxts" key="Nombre"/>
                 </properties>
               </component>
             </children>
@@ -73,7 +73,7 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text resource-bundle="Propietis/Tesxts" key="apellidoLabel"/>
+                  <text resource-bundle="Propieties/Tesxts" key="apellidoLabel"/>
                 </properties>
               </component>
             </children>
@@ -101,7 +101,7 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text resource-bundle="Propietis/Tesxts" key="DNI"/>
+                  <text resource-bundle="Propieties/Tesxts" key="DNI"/>
                 </properties>
               </component>
             </children>
@@ -129,7 +129,7 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text resource-bundle="Propietis/Tesxts" key="Contraseña"/>
+                  <text resource-bundle="Propieties/Tesxts" key="Contraseña"/>
                 </properties>
               </component>
             </children>
@@ -147,7 +147,7 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text resource-bundle="Propietis/Tesxts" key="id"/>
+                  <text resource-bundle="Propieties/Tesxts" key="id"/>
                 </properties>
               </component>
             </children>
@@ -165,7 +165,7 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text resource-bundle="Propietis/Tesxts" key="Email"/>
+                  <text resource-bundle="Propieties/Tesxts" key="Email"/>
                 </properties>
               </component>
             </children>
@@ -222,7 +222,7 @@
                   <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Añadir"/>
+                  <text resource-bundle="Propieties/Tesxts" key="añadir_Button"/>
                 </properties>
               </component>
               <component id="9229d" class="javax.swing.JButton" binding="borrar_Button">
@@ -230,7 +230,7 @@
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Eliminar"/>
+                  <text resource-bundle="Propieties/Tesxts" key="borrar_Button"/>
                 </properties>
               </component>
               <component id="c691" class="javax.swing.JButton" binding="modificar_Button">
@@ -238,7 +238,7 @@
                   <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Modificar"/>
+                  <text resource-bundle="Propieties/Tesxts" key="modificar_Button"/>
                 </properties>
               </component>
               <component id="21af9" class="javax.swing.JButton" binding="nuevo_Button">
@@ -248,7 +248,7 @@
                 <properties>
                   <horizontalAlignment value="0"/>
                   <horizontalTextPosition value="11"/>
-                  <text value="Nuevo"/>
+                  <text resource-bundle="Propieties/Tesxts" key="nuevo_Button"/>
                 </properties>
               </component>
             </children>
